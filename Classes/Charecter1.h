@@ -11,29 +11,31 @@
 
 #include <stdio.h>
 #include "cocos2d.h"
-
+#include "CharecterBase.h"
 USING_NS_CC;
-class Charecter1:public Sprite3D
+class Charecter1:public CharecterBase
 {
 public:
     virtual bool init();
     CREATE_FUNC(Charecter1);
     void load_animate();
-    void walk();
-    void run();
-    void yun();
-    void stand();
-    void attack_1();
-    void attack_2();
-    void attack_3();
-    void attack_4();
-    void dead();
-    void beizhan();
-    float walk_speed;
-    float run_speed;
-    bool _hit;
-    static int _hp;
-private:
+    virtual void mainLogic();
+    virtual void walk();
+ // void run();
+ // void yun();
+    virtual void stand();
+    void LogicStep(float dt);
+    int LStep;
+//    void attack_1();
+//    void attack_2();
+//    void attack_3();
+//    void attack_4();
+//    void dead();
+    virtual void beizhan();
+   // virtual void update(float dt);
+ 
+ 
+//private:
 //    Animate3D* ghl_stand;
 //    Animate3D* ghl_attack1;
 //    Animate3D* ghl_attack2;

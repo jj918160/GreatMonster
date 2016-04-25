@@ -41,6 +41,7 @@ static AppDelegate s_sharedApplication;
     cocos2d::Application *app = cocos2d::Application::getInstance();
     app->initGLContextAttrs();
     cocos2d::GLViewImpl::convertAttrs();
+    
 
     // Override point for customization after application launch.
 
@@ -57,7 +58,7 @@ static AppDelegate s_sharedApplication;
                                      numberOfSamples: 0 ];
     
     // Enable or disable multiple touches
-    [eaglView setMultipleTouchEnabled:NO];
+    [eaglView setMultipleTouchEnabled:YES];
 
     // Use RootViewController manage CCEAGLView 
     _viewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];

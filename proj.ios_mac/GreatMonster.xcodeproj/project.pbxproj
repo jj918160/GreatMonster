@@ -10,6 +10,9 @@
 		040C5FBE1CC64E3600D78B4F /* City_layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 040C5FB61CC64E3600D78B4F /* City_layer.cpp */; };
 		040C5FBF1CC64E3600D78B4F /* DrawNode3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 040C5FB81CC64E3600D78B4F /* DrawNode3D.cpp */; };
 		040C5FC01CC64E3600D78B4F /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 040C5FBA1CC64E3600D78B4F /* GameScene.cpp */; };
+		04A44A9B1CCB3A3E00A0AD50 /* Charecter1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A44A971CCB3A3E00A0AD50 /* Charecter1.cpp */; };
+		04A44A9C1CCB3A3E00A0AD50 /* Charecter2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A44A991CCB3A3E00A0AD50 /* Charecter2.cpp */; };
+		04A44A9F1CCB3AEE00A0AD50 /* CharecterBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04A44A9D1CCB3AEE00A0AD50 /* CharecterBase.cpp */; };
 		1BA14E61BFBE7D2B1AD88962 /* res in Resources */ = {isa = PBXBuildFile; fileRef = 01F741B993AED8B544209AD5 /* res */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -74,6 +77,12 @@
 		040C5FB91CC64E3600D78B4F /* DrawNode3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawNode3D.h; sourceTree = "<group>"; };
 		040C5FBA1CC64E3600D78B4F /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
 		040C5FBB1CC64E3600D78B4F /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		04A44A971CCB3A3E00A0AD50 /* Charecter1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Charecter1.cpp; sourceTree = "<group>"; };
+		04A44A981CCB3A3E00A0AD50 /* Charecter1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Charecter1.h; sourceTree = "<group>"; };
+		04A44A991CCB3A3E00A0AD50 /* Charecter2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Charecter2.cpp; sourceTree = "<group>"; };
+		04A44A9A1CCB3A3E00A0AD50 /* Charecter2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Charecter2.h; sourceTree = "<group>"; };
+		04A44A9D1CCB3AEE00A0AD50 /* CharecterBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharecterBase.cpp; sourceTree = "<group>"; };
+		04A44A9E1CCB3AEE00A0AD50 /* CharecterBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharecterBase.h; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* GreatMonster-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GreatMonster-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -252,6 +261,12 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				04A44A9D1CCB3AEE00A0AD50 /* CharecterBase.cpp */,
+				04A44A9E1CCB3AEE00A0AD50 /* CharecterBase.h */,
+				04A44A971CCB3A3E00A0AD50 /* Charecter1.cpp */,
+				04A44A981CCB3A3E00A0AD50 /* Charecter1.h */,
+				04A44A991CCB3A3E00A0AD50 /* Charecter2.cpp */,
+				04A44A9A1CCB3A3E00A0AD50 /* Charecter2.h */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
@@ -440,12 +455,15 @@
 			files = (
 				040C5FBF1CC64E3600D78B4F /* DrawNode3D.cpp in Sources */,
 				040C5FBE1CC64E3600D78B4F /* City_layer.cpp in Sources */,
+				04A44A9B1CCB3A3E00A0AD50 /* Charecter1.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				04A44A9C1CCB3A3E00A0AD50 /* Charecter2.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				040C5FC01CC64E3600D78B4F /* GameScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				04A44A9F1CCB3AEE00A0AD50 /* CharecterBase.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

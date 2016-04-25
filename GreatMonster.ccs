@@ -3,7 +3,16 @@
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
+        <Image Name="fanceWooden.jpg" />
+        <Mesh Name="fanceWooden.obj" />
+        <File Name="fanceWooden.psd" />
+        <Image Name="garbageTruck.jpg" />
+        <Mesh Name="garbageTruck.obj" />
+        <File Name="garbageTruck.psd" />
         <Image Name="HelloWorld.png" />
+        <Image Name="houseBig.jpg" />
+        <Mesh Name="houseBig.obj" />
+        <File Name="houseBig.psd" />
         <Project Name="MainScene.csd" Type="Scene" />
         <Project Name="Scene3D.csd" Type="Scene3D" />
       </RootFolder>
